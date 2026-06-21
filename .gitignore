@@ -1,0 +1,19 @@
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Compiled executables (ELF binaries — not source)
+src/sequential/main_seq
+src/sequential/sequential_retrieval
+src/openmp/main_omp
+src/pthreads/main_pth
+src/mpi/main_mpi
+src/hybrid/main_hybrid
+*.o
+*.a
