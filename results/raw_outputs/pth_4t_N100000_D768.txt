@@ -1,0 +1,14 @@
+======================================================
+  PTHREADS EXACT SEARCH
+======================================================
+Documents : 100000
+Dims      : 768
+Top-K     : 5
+Threads   : 4
+TOP MATCH: doc 75000  score=1
+Correctness PASSED: planted doc 75000 at rank 1
+
+--- CSV BENCHMARK DATA ---
+Algorithm,Nodes,Threads,Documents,Dimensions,CommTime,CompTime,TotalTime
+Pthreads,1,4,100000,768,0.00000,0.02373,0.02373
+======================================================

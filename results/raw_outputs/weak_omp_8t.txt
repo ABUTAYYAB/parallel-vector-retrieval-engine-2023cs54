@@ -1,0 +1,14 @@
+======================================================
+  OPENMP EXACT SEARCH
+======================================================
+Documents : 400000
+Dims      : 2048
+Top-K     : 5
+Threads   : 8
+TOP MATCH: doc 300000  score=1
+Correctness PASSED: planted doc 300000 at rank 1
+
+--- CSV BENCHMARK DATA ---
+Algorithm,Nodes,Threads,Documents,Dimensions,CommTime,CompTime,TotalTime
+OpenMP,1,8,400000,2048,0.00000,0.24330,0.24330
+======================================================

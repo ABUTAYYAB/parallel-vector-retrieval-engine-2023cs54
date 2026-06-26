@@ -1,0 +1,13 @@
+======================================================
+  SEQUENTIAL EXACT SEARCH
+======================================================
+Documents : 200000
+Dims      : 2048
+Top-K     : 5
+Running search...
+TOP MATCH: doc 150000  score=1
+
+--- CSV BENCHMARK DATA ---
+Algorithm,Nodes,Threads,Documents,Dimensions,CommTime,CompTime,TotalTime
+Sequential,1,1,200000,2048,0.000,0.50044,0.50044
+======================================================

@@ -1,0 +1,15 @@
+======================================================
+  HYBRID MPI+OPENMP EXACT SEARCH
+======================================================
+Documents : 200000
+Dims      : 2048
+Top-K     : 5
+Ranks     : 2
+Docs/rank : 100000
+TOP MATCH: doc 150000  score=1
+Correctness PASSED: planted doc 150000 at rank 1
+
+--- CSV BENCHMARK DATA ---
+Algorithm,Nodes,Threads,Documents,Dimensions,CommTime,CompTime,TotalTime
+Hybrid,2,1,200000,2048,0.00006,0.30559,0.30632
+======================================================

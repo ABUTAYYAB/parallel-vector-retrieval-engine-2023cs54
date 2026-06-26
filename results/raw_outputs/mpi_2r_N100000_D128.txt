@@ -1,0 +1,15 @@
+======================================================
+  MPI-ONLY EXACT SEARCH
+======================================================
+Documents : 100000
+Dims      : 128
+Top-K     : 5
+Ranks     : 2
+Docs/rank : 50000
+TOP MATCH: doc 75000  score=1
+Correctness PASSED: planted doc 75000 at rank 1
+
+--- CSV BENCHMARK DATA ---
+Algorithm,Nodes,Threads,Documents,Dimensions,CommTime,CompTime,TotalTime
+MPI,2,1,100000,128,0.00048,0.01082,0.01171
+======================================================
